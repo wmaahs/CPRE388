@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">StrengthLab</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="create_account">Create Account</string>
+    <string name="welcome">"Welcome %1$s!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="all_workouts">All Workouts</string>
+    <string name="Continue">Continue</string>
+
+    <string name="sorted_by_rating">Sort by Rating</string>
+
+    <!-- Main Activity Strings -->
+    <string name="workout_list">Workout List</string>
+    <string name="my_account">My Account</string>
+    <string name="calendar">Calendar</string>
+    <string name="AddWorkout">Add Workout</string>
+    <string name="greeting">to StrengthLab</string>
+
+    <!-- Workout Strings -->
+    <string name="add_workout">Add Workout</string>
+    <string name="add_a_workout">Add A Workout</string>
+    <string name="add_workouts">Add Workouts</string>
+    <string name="edit_workout">Edit Workout</string>
+    <string name="workout_uname_check">__%1$s__</string>
+    <string name="wrkout_name">Workout Name</string>
+    <string name="wrkout_time">Workout Time</string>
+
+    <!-- Workout Mode Strings -->
+    <string name="workout_mode_title">Workout Mode</string>
+    <string name="increase_btn">Increase</string>
+    <string name="decrease_btn">Decrease</string>
+
+    <!-- Exercise Strings -->
+    <string name="add_exercise">Add Exercise</string>
+    <string name="add_a_exercise">Add Exercise</string>
+    <string name="del_exercise">Delete Exercise</string>
+    <string name="del_a_exercise">Delete An Exercise</string>
+
+    <!-- navigation text -->
+    <string name="Login">Login</string>
+    <string name="Main">Main</string>
+    <string name="SignOut">Sign Out</string>
+
+
+    <string-array name="DaysOfWeek">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+    </string-array>
+
+=======
+
+    <!-- Account text -->
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="UserName">UserName</string>
+    <string name="MaxWeightSquant">Max Squat</string>
+    <string name="MaxWeightBench">Max Bench</string>
+    <string name="MaxWeightDeadlift">Max Deadlift</string>
+    <string name="BestTimeMile">Fastest Mile Time</string>
+    <string name="Maxheader">User Maxes</string>
+    <string name="Aboutheader">About</string>
+>>>>>>> 226520e63f41a008d3612c06a08227290279884e
+</resources>

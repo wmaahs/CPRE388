@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseAdd">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primaryApp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="30dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/secondaryApp"
+                    android:text="Add Exercises to Workout"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="30dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tv_exercise_edit_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/secondaryApp"
+                    android:hint="Exercise Name"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:minHeight="48dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.134" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="30dp"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tv_exercise_edit_primary"
+                    android:layout_width="181dp"
+                    android:layout_height="161dp"
+                    android:hint="Weight / Time"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:background="@color/secondaryApp"
+                    android:layout_marginHorizontal="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.069"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.456" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tv_exercise_edit_secondary"
+                    android:layout_width="176dp"
+                    android:layout_height="163dp"
+                    android:background="@color/secondaryApp"
+                    android:hint="Reps / Rest"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.931"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.454" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="30dp">
+
+                <Switch
+                    android:id="@+id/sw_exercise_edit_type"
+                    android:layout_width="130dp"
+                    android:layout_height="56dp"
+                    android:text="weight"
+                    android:textColor="@color/white"
+                    android:background="@color/secondaryApp"
+                    android:layout_marginHorizontal="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.138"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.668" />
+
+
+
+                <Button
+                    android:id="@+id/bt_workout_edit_create"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create"
+                    android:backgroundTint="@color/secondaryApp"
+                    android:layout_marginHorizontal="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.795" />
+
+                <Button
+                    android:id="@+id/bt_workout_edit_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Main"
+                    android:layout_marginHorizontal="15dp"
+                    android:backgroundTint="@color/secondaryApp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.764"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.795" />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+        </FrameLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryApp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <FrameLayout
+        android:id="@+id/workout_item_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
+        android:background="@color/tertiaryApp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_exercise_details_name"
+                android:layout_width="95dp"
+                android:layout_height="61dp"
+                android:text="Hello there"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tV_exercise_details_type"
+                android:layout_width="95dp"
+                android:layout_height="61dp"
+                android:text="Hello there"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tv_exercise_details_weight_or_time"
+                android:layout_width="95dp"
+                android:layout_height="61dp"
+                android:text="Hello there"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tv_exercise_details_reps_or_rest"
+                android:layout_width="95dp"
+                android:layout_height="61dp"
+                android:text="Hello there"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

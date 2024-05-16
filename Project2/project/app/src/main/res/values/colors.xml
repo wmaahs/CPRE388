@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Color Scheme -->
+    <color name="primaryApp">#124559</color>
+    <color name="secondaryApp">#598392</color>
+    <color name="tertiaryApp">#AEC3B0</color>
+    <color name="fourthApp">#EFF6E0</color>
+
+
+    <color name="greyPrimary">#DE000000</color>
+    <color name="greySecondary">#8B000000</color>
+    <color name="greyDisabled">#61000000</color>
+
+</resources>

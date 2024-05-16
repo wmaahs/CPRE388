@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primaryApp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/del_a_exercise"
+                android:textSize="32sp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"/>
+
+            <EditText
+                android:id="@+id/name_to_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Exercise Name"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorLink="@color/white"
+                android:layout_marginVertical="50dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="50dp">
+
+                <Button
+                    android:id="@+id/back_to_home_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/tertiaryApp"
+                    android:textSize="18sp"
+                    android:text="Back to Home"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/del_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="@color/tertiaryApp"
+                    android:text="@string/del_exercise"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
